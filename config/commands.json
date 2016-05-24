@@ -1,0 +1,9 @@
+{
+    "commands": [
+        {
+            "name": "fixtures load",
+            "aliases": "fl",
+            "class": "ride\\cli\\command\\orm\\FixturesCommand"
+        }
+    ]
+}

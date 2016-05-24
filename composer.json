@@ -1,0 +1,24 @@
+{
+    "name": "ride/cli-orm-fixtures",
+    "description": "ORM Command to create dummy data",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Kristof Serré",
+            "email": "kristof@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app-orm": ">=0.2.0",
+        "ride/cli": ">=0.5.0",
+        "ride/lib-orm": ">=0.3.0",
+        "ride/lib-system": ">=0.1.0",
+        "fzaninotto/faker": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\cli\\command\\orm\\": ["src/"]
+        }
+    }
+}
